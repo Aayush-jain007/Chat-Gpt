@@ -1,7 +1,14 @@
 .App {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #2c2c39;
+  height: 100vh;
+  color: #dcd1d1;
+  font-family: "Times New Roman";
+  background-image: linear-gradient(to top, #8f8f8f, #22313a, #ffffff);
 }
 
 .App-logo {
@@ -57,6 +64,7 @@
   .card {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 
@@ -71,13 +79,17 @@
 }
 
 .chatgpt {
-  width: 50px;
+  width: 40px;
   margin-left: 5px;
 }
 
 .generateButton {
   text-align: center;
   align-self: center;
+  border-radius: 5px;
+  border: 0px;
+  padding: 5px;
+  cursor: pointer;
 }
 
 .buttonEle {
@@ -87,4 +99,9 @@
 .form {
   display: flex;
   flex-direction: column;
+}
+
+.textarea {
+  border: 2px solid #00a67e;
+  outline: none;
 }

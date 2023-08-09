@@ -61,7 +61,7 @@ class App extends Component {
             <input
               type="text"
               id="policyNam"
-              className="input1"
+              className="input1 textarea"
               value={policyName}
               onChange={this.onChangePolicyName}
               placeholder="Enter Policy Name"
@@ -79,6 +79,7 @@ class App extends Component {
                 value={policyRequirement}
                 onChange={this.onChangePolicyRequirement}
                 placeholder="Enter Policy Requirement"
+                className="textarea"
               ></textarea>
             </div>
             <div className="inputism">
@@ -92,8 +93,11 @@ class App extends Component {
                 value={exampleInput}
                 onChange={this.onChangeExampleInput}
                 placeholder="Enter Example Input"
+                className="textarea"
               ></textarea>
             </div>
+          </div>
+          <div className="card">
             <div className="inputism">
               <label htmlFor="description" className="label">
                 Description
@@ -105,6 +109,7 @@ class App extends Component {
                 value={description}
                 onChange={this.onChangeDescription}
                 placeholder="Enter Description"
+                className="textarea"
               ></textarea>
             </div>
             <div className="inputism">
@@ -118,6 +123,7 @@ class App extends Component {
                 value={remediation}
                 onChange={this.onChangeRemediation}
                 placeholder="Enter Remediation"
+                className="textarea"
               ></textarea>
             </div>
           </div>
