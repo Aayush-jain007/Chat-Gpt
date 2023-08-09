@@ -8,7 +8,7 @@
   height: 100vh;
   color: #dcd1d1;
   font-family: "Times New Roman";
-  background-image: linear-gradient(to top, #8f8f8f, #22313a, #ffffff);
+  background-image: linear-gradient(to bottom, #424040, #40a7d3);
 }
 
 .App-logo {
@@ -102,6 +102,6 @@
 }
 
 .textarea {
-  border: 2px solid #00a67e;
+  border: 2px solid #000000;
   outline: none;
 }
